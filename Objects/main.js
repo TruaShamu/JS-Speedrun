@@ -21,6 +21,19 @@ console.log(myObject["otherProperty"]);
 
 // Object constructor 'Player'
 function Player(name, marker) {
-    this.name = name
-    this.marker = marker
+  this.name = name;
+  this.marker = marker;
+
+  this.sayName = function () {
+    console.log(name);
+  };
+  this.sayMarker = function () {
+    console.log(marker);
+  };
 }
+const player1 = new Player("John", "X");
+const player2 = new Player("Jane", "O");
+player1.sayName();
+player1.sayMarker();
+player2.sayName();
+player2.sayMarker();
