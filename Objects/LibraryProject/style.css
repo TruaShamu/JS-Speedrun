@@ -1,0 +1,11 @@
+.book-item {
+  /* CSS styles for elements with the class "book-item" go here */
+  /* Example styles: */
+  background-color: lightgray;
+  border: 1px solid black;
+  padding: 10px;
+  /* Add more styles as needed */
+}
+#upload-form {
+  display: none;
+}

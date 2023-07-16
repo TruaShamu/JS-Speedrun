@@ -4,7 +4,25 @@
     <meta charset="UTF-8" />
     <title>Library Project</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="js" href="script.js" />
   </head>
-  <body></body>
+  <body>
+    <div id="x"></div>
+    <button id="add-new-book">Add a new Book</button>
+    <form id="upload-form">
+      <label for="title">Book Title:</label><br />
+      <input type="text" id="title" name="title" /><br />
+      <label for="author">Author:</label><br />
+      <input type="text" id="author" name="author" /><br />
+      <label for="pages">Pages:</label><br />
+      <input type="number" id="pages" name="pages" /><br />
+      <input type="checkbox" id="read" name="read" value="read" />
+      <label for="read">Book read?</label><br />
+      <input type="submit" id="submit-button" value="Submit" />
+    </form>
+
+    <script src="book.js"></script>
+    <script src="library.js"></script>
+    <script src="form.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
